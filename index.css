@@ -1,0 +1,44 @@
+*{
+   padding: 0%;
+   margin: 0%;
+
+}
+.nav_in{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: dagestan;
+    font-size: 50px;
+   padding-left: 64px;
+   padding-right: 31px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   
+    
+}
+.nav_under{
+    text-decoration: none;
+    color: white;
+}
+/* .abt_nav{
+    padding-right: 31px;
+
+} */
+/* .home_nav{
+    padding-left: 64px;
+} */
+.vid_nav{
+    padding: 0px 73px 0px 73px;
+}
+.blog_nav{
+    padding-right: 73px;
+}
+.nav{
+    margin-top: 20px;
+    margin-left: 28px;
+    background-color: #AA6BE1;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 21px;
+    text-decoration: none;
+}
