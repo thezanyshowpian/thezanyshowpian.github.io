@@ -1,48 +1,81 @@
 @font-face {
-    font-family: "DagestaN";
-    src: url(D:\Fonts\Font\dagestan\DagestaN.tff);
+    font-family: DagestaN;
+    src: url(Font/dagestan/DagestaN\ .ttf);
+}
+@font-face {
+    font-family:aAttackGraffiti;
+    src: url(Font/Dropping\ paint/aAttackGraffiti);
+}
+@font-face {
+    font-family:Capture it;
+    src: url(Font/capture_it/Capture\ it.ttf);
 }
 *{
-   padding: 0%;
-   margin: 0%;
-
+    margin: 0%;
+    padding: 0%;
 }
 .nav_in{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    font-family: dagestan;
-    font-size: 50px;
-   padding-left: 64px;
-   padding-right: 31px;
-   padding-top: 24px;
-   padding-bottom: 24px;
-   
-    
-}
-.nav_under{
     text-decoration: none;
+    font-size: 50px;
+    font-family: DagestaN;
     color: white;
+    transition: 0.5s;    
+    padding: 12px 12px 12px 12px;
 }
-/* .abt_nav{
-    padding-right: 31px;
-
-} */
-/* .home_nav{
-    padding-left: 64px;
-} */
-.vid_nav{
-    padding: 0px 73px 0px 73px;
+.nav_in:hover{
+    background-color: #64fff7a1;
+    border-radius: 21px;
+    color: #7300f7;
+    font-size: 54px;
 }
-.blog_nav{
-    padding-right: 73px;
+.nav li{
+    list-style: none;
+    display: inline;
+    
+    
+    
 }
 .nav{
     margin-top: 20px;
     margin-left: 28px;
-    background-color: #AA6BE1;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 21px;
-    text-decoration: none;
+    background-color:#AA6BE1;
+    width: max-content;
+    border-radius: 21px;  
+    
+}
+.nav_txt{
+    margin-left: 52px;
+    margin-right: 19px;
+    padding: 24px 0px 24px 0px;
+    
+    
+}
+
+.vid_nav{
+    margin-left: 61px;
+    margin-right: 61px;
+}
+.abt_nav{
+    margin-left: 61px;
+}
+
+.head{
+    background-color: #F5E5FF;
+    height: 464px;
+}
+.main_txt{
+    font-size: 179px;
+    text-align: center;
+    padding-top: 138px;
+    padding-bottom: 43px;
+
+    font-family: a Attack Graffiti;
+    color: #AA6BE1;
+}
+.sub_txt{
+    font-family: capture it;
+    color: #6B87E1;
+    font-size: 65px;
+    margin-left: 278px;
+    
 }
