@@ -3,8 +3,8 @@
     src: url(Font/dagestan/DagestaN\ .ttf);
 }
 @font-face {
-    font-family:a Attack Graffiti;
-    src: url(Font/Dropping\ paint/aAttackGraffiti.ttf);
+    font-family:aAttackGraffiti;
+    src: url(Font/Dropping\ paint/aAttackGraffiti.otf);
 }
 @font-face {
     font-family:Capture it;
@@ -69,7 +69,7 @@
     padding-top: 138px;
     padding-bottom: 43px;
 
-    font-family: a Attack Graffiti;
+    font-family: aAttackGraffiti;
     color: #AA6BE1;
 }
 .sub_txt{
