@@ -3,8 +3,8 @@
     src: url(Font/dagestan/DagestaN\ .ttf);
 }
 @font-face {
-    font-family:aAttackGraffiti;
-    src: url(Font/Dropping\ paint/aAttackGraffiti.otf);
+    font-family:"BLACK BUBBLE";
+    src: url(Font/black_bubble/BLACK\ BUBBLE.ttf);
 }
 @font-face {
     font-family:Capture it;
@@ -69,7 +69,7 @@
     padding-top: 138px;
     padding-bottom: 43px;
 
-    font-family: aAttackGraffiti;
+    font-family: Black\ bubble;
     color: #AA6BE1;
 }
 .sub_txt{
